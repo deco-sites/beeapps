@@ -1,42 +1,63 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
-      },
-      {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>Click here to tweak this text however you want.</p>",
+      "cta": [],
+      "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Logos.tsx",
+        "logos": [
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/beeapps/00e5e919-90ff-486b-8d4d-a7a536ca37a2/png-transparent-aws-vector-brand-logos-icon-thumbnail.png",
+            "altText": "Amazon Web Services"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/beeapps/1abba191-5a4e-40f7-adb8-6291bd7b1055/ocipng.png"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/beeapps/f0d9514b-3b57-4b9f-9e82-e1ec6db2bd4a/azure.jpg"
+          }
+        ],
+        "title": " "
       }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "cta": [
+        {
+          "style": "Outline"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "placement": "right"
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "arrows": true
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx"
+    },
+    {
+      "__resolveType": "Footer"
     }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}

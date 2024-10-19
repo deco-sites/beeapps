@@ -1,1 +1,10 @@
-{"__resolveType":"site/sections/Header.tsx","navigation":{"links":[],"buttons":[]}}
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [],
+    "buttons": []
+  },
+  "logo": {
+    "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/beeapps/92019c4e-692e-47af-8ce7-70e9e09fad63/BeeApps-logo-560x140.png"
+  }
+}
